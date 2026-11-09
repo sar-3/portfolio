@@ -1024,9 +1024,11 @@ p {
   }
 
   .about-stamp {
-    right: 0;
-    bottom: -8%;
+    position: relative
+    right: auto;
+    bottom: auto;
     width: 88px;
+    margin: 1.5rem 0 0 auto;
     font-size: 0.55rem;
   }
 
