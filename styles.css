@@ -253,7 +253,7 @@ p {
   aspect-ratio: 0.94;
   place-items: center;
   justify-self: end;
-  overflow: hidden;
+  overflow: visible;
   background: #e4d5c1;
 }
 .project-art img {
@@ -1102,4 +1102,18 @@ p {
     object-position: center;
     position: relative;
     z-index: 2;
+}.hero-art:has(.hero-avatar) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.hero-art .hero-avatar {
+    position: static;
+    width: 80%;
+    height: auto;
+    max-height: 80%;
+    object-fit: contain;
+    transform: none;
 }
