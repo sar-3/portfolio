@@ -17,6 +17,7 @@
       ],
       "settings": {
         "livePreview.defaultPreviewPath": "/index.html",
+        "livePreview.portNumber": 5500,
         "files.autoSave": "afterDelay"
       }
     }
@@ -27,6 +28,6 @@
   // },
 
   "portsAttributes": {
-    "3000": { "label": "Náhľad webu", "onAutoForward": "openPreview" }
+    "5500": { "label": "Náhľad webu", "onAutoForward": "openPreview" }
   }
 }
