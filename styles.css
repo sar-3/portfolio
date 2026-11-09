@@ -1021,6 +1021,9 @@ p {
 
   .about-heading {
     padding-bottom: 1rem;
+    display:flex;
+    flex-direction:column;
+    align-items:flex-start;
   }
 
   .about-stamp {
