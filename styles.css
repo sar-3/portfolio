@@ -799,11 +799,11 @@ p {
 
 .js-ready .reveal:not(.is-visible) {
   transform: translateY(18px);
-  opacity: 0;
+  opacity: 1;
 }
 
 .js-ready .reveal.is-visible {
-  transform: translateY(0);
+  transform: translateY(18px);
   opacity: 1;
 }
 
@@ -1078,4 +1078,15 @@ p {
     transform: none;
     opacity: 1;
   }
+}
+.project-card {
+    display: block !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+    transform: none !important;
+}
+.project-card {
+    opacity: 1 !important;
+    transform: none !important;
+    visibility: visible !important;
 }
